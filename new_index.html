@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="new_style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+        <!-- navigation bar -->
+        <div class="topnav" id="myTopnav">
+            <a href="#" class="active left" >My Portfolio</a>        
+            <a href="#" class="tablinks right" onclick="openTab(event, 'Contact')">Contact</a>
+            <a href="#" class="tablinks right" onclick="openTab(event, 'Projects')">Projects</a>
+            <a href="#" class="tablinks right" onclick="openTab(event, 'Education')">Education</a>
+            <a href="#" class="tablinks right" onclick="openTab(event, 'About')">About</a>
+            <a href="#" class="tablinks right active" onclick="openTab(event, 'Home')">Home</a>
+            <a href="javascript:void(0);" class="icon" onclick="respondNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <div id="Home" class="tabcontent active-link">
+            <div class="main-content x-center pos-absolute">
+                <h1 class="x-center pos-absolute">Home Section</h1>
+            </div>
+        </div>
+
+        <div id="About" class="tabcontent">
+            <div class="main-content x-center pos-absolute">
+                <h1 class="x-center pos-absolute">About Section</h1>
+            </div>
+        </div>
+
+        <div id="Education" class="tabcontent">
+            <div class="main-content x-center pos-absolute">
+                <h1 class="x-center pos-absolute">Education Section</h1>
+            </div>
+        </div>
+
+        <div id="Projects" class="tabcontent">
+            <div class="main-content x-center pos-absolute">
+                <h1 class="x-center pos-absolute">Projects Section</h1>
+            </div>
+        </div>
+
+        <div id="Contact" class="tabcontent">
+            <div class="main-content x-center pos-absolute">
+                <h1 class="x-center pos-absolute">Contact Section</h1>
+            </div>
+        </div>
+
+        <div class="datetime">
+            <p id="clock" class="center"></p>
+        </div>
+
+        <script src="new_script.js"></script>
+    
+    </body>
+</html> 
